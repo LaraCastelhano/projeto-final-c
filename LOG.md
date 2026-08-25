@@ -14,23 +14,26 @@ Defini que o jogo teria:
   (por falta de vidas ou por desistir a meio)
  
  **Funcionalidades implementadas hoje:**
--Configurei o Git e o repositório no Github
--Criei o ficheiro main.c
+- Configurei o Git e o repositório no Github
+- Criei o ficheiro main.c
 **Maior dificuldade encontrada e como resolvi (ou não resolvi):**
--O meu antivírus começou e impedir o meu prgrama de rodar, com a ajuda do formador criamos uma extenção de excessão para a pasta do projeto.
+- O meu antivírus começou e impedir o meu prgrama de rodar, com a ajuda do formador criamos uma extenção de excessão para a pasta do projeto.
 **Próximo passo planeado:**
--Começar a organizar as ideias do projeto, para começar a realizar o código.
+- Começar a organizar as ideias do projeto, para começar a realizar o código.
   
 **Linhas de código escritas hoje (estimativa):**
--38 linhas escritas.
+- 38 linhas escritas.
 
 ## SESSÃO 2 - COMEÇO DO PROJETO - 25/08/2026
 
  **Funcionalidades implementadas hoje:**
--A criação do ficheiro game.c e game.h
+- A criação do ficheiro game.c e game.h 
+- A criação do heroi e do labirinto, juntamento com os movimentos do personagem.
 **Maior dificuldade encontrada e como resolvi (ou não resolvi):**
+- Fazer o labirinto atulizar-se nele próprio e não repetir-se sempre que houve-se um movimento, não resolvido.
 
 **Próximo passo planeado:**
-
+- Adicionar o vencedor quando o heroi chegar há princesa.
   
 **Linhas de código escritas hoje (estimativa):**
+- Aproximadamente 70 linhas
