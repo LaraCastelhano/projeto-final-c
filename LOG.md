@@ -2,11 +2,11 @@
 
 Nesta primeira sessão eu comecei por organizar todas as minhas ideias, e planear como iria começar, uma vez que a minha experiência em C é pouca.
 
-Depois de pensar em algumas opções concluí que que queria realizar um jogo de aventira com inigmas e que continha um labirinto e o utilizador que seria o herói tinha de salvar a princesa e derrotar os vilões resolvendo os inigmas deles.
+Depois de pensar em algumas opções concluí que que queria realizar um jogo de aventura com inigmas e que continha um labirinto em que o utilizador, que seria o herói, tinha o objetivo de salvar a princesa e derrotar os vilões resolvendo os seus inigmas.
 
 Defini que o jogo teria:
 
-- um labirinto representado por uma matriz, pelo qual o jogador se desloca até chegar à princesa
+- um labirinto representado por uma matriz 5 por 5, pelo qual o jogador se desloca até chegar à princesa
 - vilões que bloqueiam o caminho e desafiam o jogador com um enigma. Se acertar, passa mas se errar ou demorar demasiado tempo a responder,perde uma vida
 - um limite de tempo real para responder a cada enigma, que vai diminuindo à medida que o jogador se, aproximando da princesa, tornando o jogo progressivamente mais difícil
 - a opção de fugir de um vilão em vez de enfrentar o enigma, levando a um final alternativo.
@@ -16,9 +16,10 @@ Defini que o jogo teria:
  
  **Funcionalidades implementadas hoje:**
 -Configurei o Git e o repositório no Github
--Criei o ficheiro jogo.c
+-Criei o ficheiro main.c
 **Maior dificuldade encontrada e como resolvi (ou não resolvi):**
--Tive problemas na configuração com o push mas logo percebi que era a URL do repositório que estava errada.
+-O meu antivírus começou e impedir o meu prgrama de rodar, com a ajuda do formador criamos uma extenção de excessão para a pasta do projeto.
 **Próximo passo planeado:**
--Começar a organizar as ideias do projeto, para começar a realizar o código.  
+-Começar a organizar as ideias do projeto, para começar a realizar o código.
+  
 **Linhas de código escritas hoje (estimativa):**
