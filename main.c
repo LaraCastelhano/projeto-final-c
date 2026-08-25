@@ -1,38 +1,34 @@
 #include <stdio.h>
+//#include <stdlib.h>
+#include "game.h"
 
-void init_mapa(char mapa[5][5]);
-void print_mapa(char mapa[5][5]);
+int main()
+{
+    iniciar_jogo();
+    char nome[50];
+    printf("Qual o nome do teu heroi? ");
+    scanf("%49s", nome);
 
-int main(void) {
+    printf("\nBem vinda, %s!\n\n", nome);
+    
     char mapa[5][5];
+    int linha=0;
+    int coluna=0;
+
     init_mapa(mapa);
-    print_mapa(mapa);
 
-    return 0;
-}
 
-void init_mapa (char mapa[5][5])
-{
-    for (int i=0;i<5;i++)
+    char movimento;
+
+    while(1)
     {
-        for (int j=0;j<5;j++)
-        {
-            mapa[i][j]='.';
-        }
-    }
-}  
+        //system("cls");
 
-void print_mapa(char mapa[5][5])
-{
-    printf("\n");
-    for(int i =0;i<5;i++)
-    {
-        for(int j=0;j<5;j++)
-        {
-            printf(" %c ", mapa[i][j]);
-
-        }
+        print_mapa(mapa);
+        printf("\nMovimento (W/A/S/D): ");
+        scanf(" %c", &movimento);
+        mover_player(mapa, &linha, &coluna, movimento);
         printf("\n");
     }
-    
+    return 0;
 }
