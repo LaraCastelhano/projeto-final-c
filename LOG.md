@@ -2,7 +2,7 @@
 
 Nesta primeira sessão eu comecei por organizar todas as minhas ideias, e planear como iria começar, uma vez que a minha experiência em C é pouca.
 
-Depois de pensar em algumas opções concluí que que queria realizar um jogo de aventura com inigmas e que continha um labirinto em que o utilizador, que seria o herói, tinha o objetivo de salvar a princesa e derrotar os vilões resolvendo os seus inigmas.
+Depois de pensar em algumas opções concluí que que queria realizar um jogo de aventura com enigmas e que continha um labirinto em que o utilizador, que seria o herói, tinha o objetivo de salvar a princesa e derrotar os vilões resolvendo os seus inigmas.
 
 Defini que o jogo teria:
 
@@ -18,7 +18,7 @@ Defini que o jogo teria:
 - Criei o ficheiro main.c.
 
 **Maior dificuldade encontrada e como resolvi (ou não resolvi):**
-- O meu antivírus começou e impedir o meu prgrama de rodar, com a ajuda do formador criamos uma extenção de excessão para a pasta do projeto.
+- O meu antivírus começou e impedir o meu programa de rodar, com a ajuda do formador criamos uma extenção de excessão para a pasta do projeto.
 
 **Próximo passo planeado:**
 - Começar a organizar as ideias do projeto, para começar a realizar o código.
@@ -36,7 +36,7 @@ Defini que o jogo teria:
 - Fazer o labirinto atualizar-se nele próprio e não repetir-se sempre que houve-se um movimento, não resolvido.
 
 **Próximo passo planeado:**
-- Adicionar o vencedor quando o heroi chegar há princesa.
+- Adicionar o final de jogo bom quando o heroi chegar há princesa.
   
 **Linhas de código escritas hoje (estimativa):**
 - Aproximadamente 70 linhas escritas.
@@ -44,8 +44,22 @@ Defini que o jogo teria:
 ## SESSÃO 3 - Meio do projeto - 25/08/2026 - 27/08/2026
 
  **Funcionalidades implementadas hoje:**
-- A criação dos ficheiros ciloes.c e viloes.h para as funcionalidades dos vilões.
+- A criação dos ficheiros viloes.c e viloes.h para as funcionalidades dos vilões.
 - A criação de cada enigma para cada vilão.
+
+**Maior dificuldade encontrada e como resolvi (ou não resolvi):**
+- Colocar tempo para responder cada enigma e caso o tempo acabasse perder o jogo, não resolvi.
+
+**Próximo passo planeado:**
+- Adicionar as vidas.
+  
+**Linhas de código escritas hoje (estimativa):**
+- Aproximadamente 78 linhas escritas.
+
+## SESSÃO 4 - Finais do projeto - 28/08/2026
+
+ **Funcionalidades implementadas hoje:**
+- A criação dos ficheiros vida.c e vida.h
 
 **Maior dificuldade encontrada e como resolvi (ou não resolvi):**
 - Colocar tempo para responder cada enigma e caso o tempo acabasse perder o jogo, não resolvi.

@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-#include "viloes.h"
 #include "game.h"
+#include "viloes.h"
+#include "vida.h"
 
 int main()
 {
-    srand(time(NULL));
 
     iniciar_jogo();
     char nome[50];
