@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "game.h"
 #include "viloes.h"
 #include "vida.h"
+#include "game.h"
 
 int main()
 {
-
     iniciar_jogo();
     char nome[50];
     printf("Qual o nome do teu heroi? ");
@@ -25,7 +24,6 @@ int main()
 
     while(1)
     {
-        //system("cls");
 
         print_mapa(mapa);
         printf("\nAndar para (W/A/S/D): ");
@@ -48,7 +46,7 @@ int main()
             break;
         }
 
-        int numero = rand() % 5;
+        int numero = rand() % 2;
         
         if (numero == 0)
         {
@@ -56,14 +54,19 @@ int main()
             if (vilao != -1)
             {
                 printf("\nOH NAO, ESTAO A TAPAR A PASSAGEM!\n");
-                if (enigmas(vilao)==1)
+                if (enigmas(vilao)==0)
                 {
                     break;
                 }
-            }
+                if (verificar_vida() == 0)
+                {
+                    printf("Perdeste todas as vidas.");
+                    printf("\nParabens falhas-te e a princesa nunca foi salva.");
+                    break;
+                }
+            }  
         }
-        
         printf("\n");
     }
-    return 0;
+     return 0;
 }
