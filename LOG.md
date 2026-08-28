@@ -14,8 +14,8 @@ Defini que o jogo teria:
   (por falta de vidas ou por desistir a meio)
  
  **Funcionalidades implementadas hoje:**
-- Configurei o Git e o repositório no Github
-- Criei o ficheiro main.c
+- Configurei o Git e o repositório no Github.
+- Criei o ficheiro main.c.
 
 **Maior dificuldade encontrada e como resolvi (ou não resolvi):**
 - O meu antivírus começou e impedir o meu prgrama de rodar, com a ajuda do formador criamos uma extenção de excessão para a pasta do projeto.
@@ -24,7 +24,7 @@ Defini que o jogo teria:
 - Começar a organizar as ideias do projeto, para começar a realizar o código.
   
 **Linhas de código escritas hoje (estimativa):**
-- 38 linhas escritas.
+- Aproximadamente 38 linhas escritas.
 
 ## SESSÃO 2 - COMEÇO DO PROJETO - 25/08/2026
 
@@ -39,4 +39,20 @@ Defini que o jogo teria:
 - Adicionar o vencedor quando o heroi chegar há princesa.
   
 **Linhas de código escritas hoje (estimativa):**
-- Aproximadamente 70 linhas
+- Aproximadamente 70 linhas escritas.
+
+## SESSÃO 3 - Meio do projeto - 25/08/2026 - 27/08/2026
+
+ **Funcionalidades implementadas hoje:**
+- A criação dos ficheiros ciloes.c e viloes.h para as funcionalidades dos vilões.
+- A criação de cada enigma para cada vilão.
+
+**Maior dificuldade encontrada e como resolvi (ou não resolvi):**
+- Colocar tempo para responder cada enigma e caso o tempo acabasse perder o jogo, não resolvi.
+
+**Próximo passo planeado:**
+- Adicionar as vidas.
+  
+**Linhas de código escritas hoje (estimativa):**
+- Aproximadamente 78 linhas escritas.
+
