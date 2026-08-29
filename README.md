@@ -13,11 +13,12 @@ Depois da introdução da história, é apresentado um labirinto de 5x5.
 
 - Movimentos:
 
-Tecla       Ação
-w           Move para cima
-a           Move para a esquerda
-s           Move para baixo
-d           Move para a direita
+|Tecla  | Ação |
+|-------|-------|
+|w      | Move para cima |
+|a      | Move para a esquerda |
+|s      | Move para baixo |
+|d      | Move para a direita |
 
 O jogador começa na posição H (Herói) e deve chegar à posição da Princesa (P).
 
@@ -35,10 +36,10 @@ Também é possível escolher fugir do vilão, o que leva a um final alternativo
 # Estrutura do projeto
 
 Ficheiro                  
-main.c                    Menu, história e lógica principal do jogo
-game.c / game.h           Criação do mapa e dos movimentos
-viloes.c / viloes.h       Seleção dos vilões e dos enigmas
-vida.c /vida.h            Sistema de vidas
+| main.c                    | Menu, história e lógica principal do jogo |
+| game.c / game.h           | Criação do mapa e dos - movimentos |
+| viloes.c / viloes.h       | Seleção dos vilões e dos enigmas |
+| vida.c /vida.h            | Sistema de vidas |
  
 # Como compilar e executar o jogo
 - Como compilar:
