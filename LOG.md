@@ -60,6 +60,8 @@ Defini que o jogo teria:
 
  **Funcionalidades implementadas hoje:**
 - A criação dos ficheiros vida.c e vida.h
+- Adição da redução de vidas.
+- Criação de um menu.
 
 **Maior dificuldade encontrada e como resolvi (ou não resolvi):**
 - Colocar tempo para responder cada enigma e caso o tempo acabasse perder o jogo, não resolvi.

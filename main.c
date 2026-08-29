@@ -4,9 +4,84 @@
 #include "vida.h"
 #include "game.h"
 
-int main()
+void menu();
+void historia(int parte);
+void iniciar_jogo();
+
+void menu()
 {
-    iniciar_jogo();
+    int opcao;
+    while (1)
+    {
+        printf("\n====================================\n");
+        printf("        THE LOST PRINCESS");
+        printf("\n====================================\n");
+        printf("1 - Iniciar jogo\n");
+        printf("2 - Regras\n");
+        printf("3 - Sair\n");
+        printf("\n====================================\n");
+        
+        scanf("%d", &opcao);
+        if (opcao==1)
+        {
+            iniciar_jogo();
+        }
+        else if(opcao==2)
+        {
+            printf("\n============ REGRAS =============\n");
+            printf("Encontra a princesa no labirinto.\n");
+            printf("Usa W/A/S/D para te moveres.\n");
+            printf("Enfrenta os viloes e resolve os enigmas.\n");
+            printf("Tens 3 vidas.\n");
+            printf("\n====================================\n");
+        }
+    else if(opcao==3)
+    {
+        break;
+    }
+    else
+    {
+        printf("\nOpcao invalida\n");
+    }
+} 
+}
+
+void historia(int parte)
+{
+    if (parte ==5)
+    {
+        return;
+    }
+
+    if(parte==0)
+    {
+        printf("\nAbres os olhos lentamente");
+    }
+    else if(parte==1)
+    {
+        printf("\nEstas deitado no meio de uma floresta");
+    }
+    else if(parte==2)
+    {
+        printf("\nLevantaste e olhas ao redor, estas numa floresta");
+    }
+    else if(parte==3)
+    {
+        printf("\nOuves uma voz lá dentro");
+    }
+    else if(parte==4)
+    {
+        printf("\n\"Encontra a princesa\"\n");
+    }
+    historia(parte+1);
+
+}
+
+
+void iniciar_jogo()
+{
+    historia(0);
+
     char nome[50];
     printf("Qual o nome do teu heroi? ");
     scanf("%49s", nome);
@@ -68,5 +143,11 @@ int main()
         }
         printf("\n");
     }
-     return 0;
+}
+
+int main()
+{
+    menu();
+
+    return 0;
 }

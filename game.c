@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include "game.h"
 
-void iniciar_jogo()
-{
-
-}
 
 void init_mapa(char mapa[5][5])
 {
