@@ -35,7 +35,8 @@ Também é possível escolher fugir do vilão, o que leva a um final alternativo
 
 # Estrutura do projeto
 
-Ficheiro                  
+|Ficheiro | Função |    
+|-------|-------|
 | main.c                    | Menu, história e lógica principal do jogo |
 | game.c / game.h           | Criação do mapa e dos - movimentos |
 | viloes.c / viloes.h       | Seleção dos vilões e dos enigmas |
