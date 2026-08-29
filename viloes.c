@@ -127,7 +127,7 @@ int enigmas(int vilao)
             return 0;
         }
         
-        printf("\nTem pescoco e nao tem cabeaa, tem braaos e nao tem maos, tem corpo e nao tem pernas. O que sou eu?\n");
+        printf("\nTem pescoco e nao tem cabeca, tem bracos e nao tem maos, tem corpo e nao tem pernas. O que sou eu?\n");
         
         scanf("%49s", resposta);
         

@@ -16,7 +16,7 @@ void menu()
         printf("\n====================================\n");
         printf("        THE LOST PRINCESS");
         printf("\n====================================\n");
-        printf("1 - Iniciar jogo\n");
+        printf("1 - Jogar\n");
         printf("2 - Regras\n");
         printf("3 - Sair\n");
         printf("\n====================================\n");
@@ -83,7 +83,7 @@ void iniciar_jogo()
     historia(0);
 
     char nome[50];
-    printf("Qual o nome do teu heroi? ");
+    printf("\nQual o nome do teu heroi? ");
     scanf("%49s", nome);
 
     printf("\nBem vinda, %s!\n\n", nome);
@@ -118,7 +118,7 @@ void iniciar_jogo()
 
             printf("           VITORIA!\n");
             printf("================================\n");
-            break;
+            exit(0);
         }
 
         int numero = rand() % 2;
@@ -131,13 +131,13 @@ void iniciar_jogo()
                 printf("\nOH NAO, ESTAO A TAPAR A PASSAGEM!\n");
                 if (enigmas(vilao)==0)
                 {
-                    break;
+                    exit (0);
                 }
                 if (verificar_vida() == 0)
                 {
                     printf("Perdeste todas as vidas.");
                     printf("\nParabens falhas-te e a princesa nunca foi salva.");
-                    break;
+                    exit(0);
                 }
             }  
         }
