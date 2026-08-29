@@ -38,9 +38,9 @@ Também é possível escolher fugir do vilão, o que leva a um final alternativo
 |Ficheiro | Função |    
 |-------|-------|
 | main.c                    | Menu, história e lógica principal do jogo |
-| game.c / game.h           | Criação do mapa e dos - movimentos |
+| game.c / game.h           | Criação do mapa e dos movimentos |
 | viloes.c / viloes.h       | Seleção dos vilões e dos enigmas |
-| vida.c /vida.h            | Sistema de vidas |
+| vida.c / vida.h            | Sistema de vidas |
  
 # Como compilar e executar o jogo
 - Como compilar:
@@ -51,4 +51,4 @@ Na pasta onde estão os ficheiros .c, executar:
 - Como executar:
 Depois de compilar, executar:
 
-   ./jogo
+   ./jogo.exe
