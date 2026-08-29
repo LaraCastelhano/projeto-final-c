@@ -1,24 +1,23 @@
 ## SESSÃO 1 - IDEIA E PLANEAMENTO DO PROJETO - 24/08/2026
 
-Nesta primeira sessão eu comecei por organizar todas as minhas ideias, e planear como iria começar, uma vez que a minha experiência em C é pouca.
+Nesta primeira sessão eu comecei por organizar todas as minhas ideias e planear como iria começar, uma vez que a minha experiência em C é pouca.
 
-Depois de pensar em algumas opções concluí que que queria realizar um jogo de aventura com enigmas e que continha um labirinto em que o utilizador, que seria o herói, tinha o objetivo de salvar a princesa e derrotar os vilões resolvendo os seus inigmas.
+Depois de pensar em algumas opções concluí que queria realizar um jogo de aventura com enigmas e que continha um labirinto em que o utilizador, que seria o herói, tinha o objetivo de salvar a princesa e derrotar os vilões resolvendo os seus enigmas.
 
 Defini que o jogo teria:
 
 - um labirinto representado por uma matriz 5 por 5, pelo qual o jogador se desloca até chegar à princesa.
-- vilões que bloqueiam o caminho e desafiam o jogador com enigmas. Se acertar, passa mas se errar ou demorar demasiado tempo a responder,perde uma vida.
+- vilões que bloqueiam o caminho e desafiam o jogador com enigmas. Se acertar, passa mas se errar ou demorar demasiado tempo a responder, perde uma vida.
 - a opção de fugir de um vilão em vez de enfrentar o enigma, levando a um final alternativo.
-- texto colorido no terminal (usando códigos ANSI) para distinguir as vozes do narrador, do herói, dos vilões e da princesa, dando mais identidade a cada personagem.
-- pelo menos dois finais possíveis: salvar a princesa, ou falhar
-  (por falta de vidas ou por desistir a meio)
+- texto colorido no terminal para distinguir as vozes do narrador, do herói, dos vilões e da princesa, dando mais identidade a cada personagem.
+- pelo menos dois finais possíveis: salvar a princesa, ou falhar.
  
  **Funcionalidades implementadas hoje:**
-- Configurei o Git e o repositório no Github.
+- Configurei o Git e o repositório no GitHub.
 - Criei o ficheiro main.c.
 
 **Maior dificuldade encontrada e como resolvi (ou não resolvi):**
-- O meu antivírus começou e impedir o meu programa de rodar, com a ajuda do formador criamos uma extenção de excessão para a pasta do projeto.
+- O meu antivírus começou a impedir o meu programa de rodar, com a ajuda do formador criámos uma extensão de exceção para a pasta do projeto.
 
 **Próximo passo planeado:**
 - Começar a organizar as ideias do projeto, para começar a realizar o código.
@@ -29,14 +28,14 @@ Defini que o jogo teria:
 ## SESSÃO 2 - COMEÇO DO PROJETO - 25/08/2026
 
  **Funcionalidades implementadas hoje:**
-- A criação do ficheiro game.c e game.h 
-- A criação do heroi e do labirinto, juntamento com os movimentos do personagem.
+- A criação do ficheiro game.c e game.h. 
+- A criação do herói e do labirinto, juntamente com os movimentos do personagem.
 
 **Maior dificuldade encontrada e como resolvi (ou não resolvi):**
-- Fazer o labirinto atualizar-se nele próprio e não repetir-se sempre que houve-se um movimento, não resolvido.
+- Fazer o labirinto atualizar-se sem se repetir sempre que houvesse um movimento, Problema não resolvido.
 
 **Próximo passo planeado:**
-- Adicionar o final de jogo bom quando o heroi chegar há princesa.
+- Adicionar o final de vitória quando o herói chegar à princesa.
   
 **Linhas de código escritas hoje (estimativa):**
 - Aproximadamente 70 linhas escritas.
@@ -45,10 +44,10 @@ Defini que o jogo teria:
 
  **Funcionalidades implementadas hoje:**
 - A criação dos ficheiros viloes.c e viloes.h para as funcionalidades dos vilões.
-- A criação de cada enigma para cada vilão.
+- A criação de um enigma para cada vilão.
 
 **Maior dificuldade encontrada e como resolvi (ou não resolvi):**
-- Colocar tempo para responder cada enigma e caso o tempo acabasse perder o jogo, não resolvi.
+- Colocar tempo para responder cada enigma e caso o tempo acabasse perder o jogo. Problema não resolvido.
 
 **Próximo passo planeado:**
 - Adicionar as vidas.
@@ -56,19 +55,19 @@ Defini que o jogo teria:
 **Linhas de código escritas hoje (estimativa):**
 - Aproximadamente 78 linhas escritas.
 
-## SESSÃO 4 - Finais do projeto - 28/08/2026
+## SESSÃO 4 - Fase final do projeto - 28/08/2026 - 29/08/2026
 
  **Funcionalidades implementadas hoje:**
 - A criação dos ficheiros vida.c e vida.h
-- Adição da redução de vidas.
+- Implementação do sistema de vidas.
 - Criação de um menu.
 
 **Maior dificuldade encontrada e como resolvi (ou não resolvi):**
 - Colocar tempo para responder cada enigma e caso o tempo acabasse perder o jogo, não resolvi.
 
 **Próximo passo planeado:**
-- Adicionar as vidas.
+- Últimos retoques no código.
   
 **Linhas de código escritas hoje (estimativa):**
-- Aproximadamente 78 linhas escritas.
+- Aproximadamente 90 linhas escritas.
 
