@@ -34,10 +34,12 @@ int enigmas(int vilao)
 
     if (vilao ==0)
     {
-        printf("\n====================================\n");
+        printf("\n\033[31m====================================\n");
         printf("        UM VILAO APARECEU!");
-        printf("\n====================================\n");
-        printf("Para me derrotares teras de responder corretamente a um enigma.\n");
+        printf("\n====================================\033[0m\n");
+
+        printf("\n\033[31m*VILAO*\033[0m");
+        printf("\nPara me derrotares teras de responder corretamente a um enigma.\n");
         
         printf("1 - fugir\n");
         printf("2 - Responder\n");
@@ -45,10 +47,11 @@ int enigmas(int vilao)
 
         if (escolha == 1)
         {
+            printf("\n\033[36m*NARRADOR*\033[0m");
             printf("\nParabens fos-te um cobarde e a princesa nunca foi salva.");
             return 0;
         }
-        
+        printf("\n\033[31m*VILAO*\033[0m");
         printf("\nQuanto mais escuro esta mais me ves, o que sou eu?\n");
         scanf("%49s", resposta);
            
@@ -59,13 +62,15 @@ int enigmas(int vilao)
         
         if (strcmp(resposta, "estrela") == 0)
         {
+            printf("\n\033[36m*NARRADOR*\033[0m");
             printf("\nResposta correta!");
             printf("\nVilao derrotado!\n");
             verificar_vida();
         }
         else
         {
-            printf("\nResposta errada...");
+            printf("\n\033[36m*NARRADOR*\033[0m");
+            printf("\nResposta errada...\n");
             printf("\nO vilao esta a rir-se de ti\n");
             perder_vida();
         }
@@ -73,21 +78,24 @@ int enigmas(int vilao)
     }
     if (vilao ==1)
     {
-        printf("\n====================================\n");
+        printf("\n\033[31m====================================\n");
         printf("        UM VILAO APARECEU!");
-        printf("\n====================================\n");
-        printf("Para me derrotares teras de responder corretamente a um enigma.\n");
+        printf("\n====================================\033[0m\n");
+
+        printf("\n\033[31m*VILAO*\033[0m");
+        printf("\nPara me derrotares teras de responder corretamente a um enigma.\n");
 
         printf("1 - fugir\n");
         printf("2 - Responder\n");
         scanf("%d", &escolha);
         if (escolha == 1)
         {
-            printf("\nParabens falhas-te e a princesa nunca foi salva.");
+            printf("\n\033[36m*NARRADOR*\033[0m");
+            printf("\nParabens fos-te um cobarde e a princesa nunca foi salva.");
             return 0;
         }
-        
 
+        printf("\n\033[31m*VILAO*\033[0m");
         printf("\nSigo te para onde quer que vas, mas desapareco quando a luz acaba. O que sou eu?\n");
         
         scanf("%49s", resposta);
@@ -99,6 +107,7 @@ int enigmas(int vilao)
         
         if (strcmp(resposta, "sombra") == 0)
         {
+            printf("\n\033[36m*NARRADOR*\033[0m");
             printf("\nResposta correta!");
             printf("\nVilao derrotado!\n");
             verificar_vida();
@@ -106,7 +115,8 @@ int enigmas(int vilao)
         }
         else
         {
-            printf("\nResposta errada...");
+            printf("\n\033[36m*NARRADOR*\033[0m");
+            printf("\nResposta errada...\n");
             printf("\nO vilao humilhou-te\n");
             perder_vida();
         }
@@ -114,19 +124,24 @@ int enigmas(int vilao)
     }
     if (vilao ==2)
     {
-        printf("\n====================================\n");
+        printf("\n\033[31m====================================\n");
         printf("        UM VILAO APARECEU!");
-        printf("\n====================================\n");
-        printf("Para me derrotares teras de responder corretamente a um enigma.\n");
+        printf("\n====================================\033[0m\n");
+
+        printf("\n\033[31m*VILAO*\033[0m");
+        printf("\nPara me derrotares teras de responder corretamente a um enigma.\n");
+
         printf("1 - fugir\n");
         printf("2 - Responder\n");
         scanf("%d", &escolha);
         if (escolha == 1)
         {
-            printf("\nParabens falhas-te e a princesa nunca foi salva.");
+            printf("\n\033[36m*NARRADOR*\033[0m");
+            printf("\nParabens fos-te um cobarde e a princesa nunca foi salva.");
             return 0;
         }
         
+        printf("\n\033[31m*VILAO*\033[0m");
         printf("\nTem pescoco e nao tem cabeca, tem bracos e nao tem maos, tem corpo e nao tem pernas. O que sou eu?\n");
         
         scanf("%49s", resposta);
@@ -140,33 +155,40 @@ int enigmas(int vilao)
             strcmp(resposta, "a camisa") == 0||
             strcmp(resposta, "uma camisa") == 0)
         {
+            printf("\n\033[36m*NARRADOR*\033[0m");
             printf("\nResposta correta!");
             printf("\nVilao derrotado!\n");
             verificar_vida();
         }
         else
         {
+            printf("\n\033[36m*NARRADOR*\033[0m");
             printf("\nResposta errada...\n");
-            printf("\nO vilao fez te chorar que nem um bebe.\n");
+            printf("\nO vilao fez te chorar como um um bebe.\n");
             perder_vida();
         }
 
     }
     if (vilao ==3)
     {
-        printf("\n====================================\n");
+        printf("\n\033[31m====================================\n");
         printf("        UM VILAO APARECEU!");
-        printf("\n====================================\n");
-        printf("Para me derrotares teras de responder corretamente a um enigma.\n");
+        printf("\n====================================\033[0m\n");
+
+        printf("\n\033[31m*VILAO*\033[0m");
+        printf("\nPara me derrotares teras de responder corretamente a um enigma.\n");
+
         printf("1 - fugir\n");
         printf("2 - Responder\n");
         scanf("%d", &escolha);
         if (escolha == 1)
         {
-            printf("\nParabens falhas-te e a princesa nunca foi salva.");
+            printf("\n\033[36m*NARRADOR*\033[0m");
+            printf("\nParabens fos-te um cobarde e a princesa nunca foi salva.");
             return 0;
         }
         
+        printf("\n\033[31m*VILAO*\033[0m");
         printf("\nO que e que tem capa, mas nao e o super-homem, tem folhas, mas nao e uma arvore, tem orelhas, mas nao e gente, e surdo, mas conta tudo?\n");
         
         scanf("%49s", resposta);
@@ -179,12 +201,14 @@ int enigmas(int vilao)
         if (strcmp(resposta, "livro") == 0||
             strcmp(resposta, "o livro") == 0)
         {
+            printf("\n\033[36m*NARRADOR*\033[0m");
             printf("\nResposta correta!");
             printf("\nVilao derrotado!\n");
             verificar_vida();
         }
         else
         {
+            printf("\n\033[36m*NARRADOR*\033[0m");
             printf("\nResposta errada...\n");
             printf("\nO vilao ficou a olhar para ti em silencio. Que vergonha...\n");
             perder_vida();
