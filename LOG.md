@@ -61,6 +61,7 @@ Defini que o jogo teria:
 - A criação dos ficheiros vida.c e vida.h
 - Implementação do sistema de vidas.
 - Criação de um menu.
+- Implementação das respetivas cores para cada personagem utilizando códigos ANSI.
 
 **Maior dificuldade encontrada e como resolvi (ou não resolvi):**
 - Colocar tempo para responder cada enigma e caso o tempo acabasse perder o jogo, não resolvi.
