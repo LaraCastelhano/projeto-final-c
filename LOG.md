@@ -55,13 +55,14 @@ Defini que o jogo teria:
 **Linhas de código escritas hoje (estimativa):**
 - Aproximadamente 78 linhas escritas.
 
-## SESSÃO 4 - Fase final do projeto - 28/08/2026 - 29/08/2026
+## SESSÃO 4 - Fase final do projeto - 28/08/2026 - 30/08/2026
 
  **Funcionalidades implementadas hoje:**
 - A criação dos ficheiros vida.c e vida.h
 - Implementação do sistema de vidas.
 - Criação de um menu.
 - Implementação das respetivas cores para cada personagem utilizando códigos ANSI.
+- Implementação dos acentos e caracteres especiais no texto apresentado no terminal.
 
 **Maior dificuldade encontrada e como resolvi (ou não resolvi):**
 - Colocar tempo para responder cada enigma e caso o tempo acabasse perder o jogo, não resolvi.
